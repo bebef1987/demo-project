@@ -5,12 +5,6 @@
       "os_version" : "10",
       "browser" : "Chrome",
       "browser_version" : "64.0"
-    },
-    {
-      "os" : "Windows",
-      "os_version" : "10",
-      "browser" : "Firefox",
-      "browser_version" : "58.0"
     }
   ]
 }

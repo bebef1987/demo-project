@@ -6,7 +6,7 @@ catchError {
         browsers = readJSON file: 'BrowserSettings/browsers.json'
     }
 
-    def batchSize = 4
+    def batchSize = 1
 
     def parallelBrowsers = [:]
     for (browser in browsers.browsers) {
