@@ -138,11 +138,11 @@ def runTests(browser, batchSize) {
                             with_browser_stack (localIdentifier){
 
                                 // Get Java Environment
-                                withEnv(["JAVA_HOME=${tool 'java8'}", "MAVEN_HOME=${tool 'M3'}"]) {
-                                    configFileProvider([configFile(fileId: 'garmin-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                withEnv(["JAVA_HOME=${tool 'java8'}", "GRADLE=${tool 'GRADLE'}"]) {
+
 
                                         // Run Maven Tests
-                                        bat "${MAVEN_HOME}/bin/mvn clean verify  --settings ${MAVEN_SETTINGS} " +
+                                        bat "${GRADLE}/bin/gradle clean test  " +
 
                                                 // Serenity Settings
                                                 "-Dserenity.public.url=${env.BUILD_URL}Serenity/ " +
@@ -180,10 +180,10 @@ def runTests(browser, batchSize) {
                                                 " -DtestThreadCount=10  " +
 
                                                 // Retry settings
-                                                " -Dtest.retry.count=2 " 
+                                                " -Dtest.retry.count=2 "
 
 //                                                " -Dserenity.dry.run=true "
-                                    }
+
                                 }
                             }
                         }
