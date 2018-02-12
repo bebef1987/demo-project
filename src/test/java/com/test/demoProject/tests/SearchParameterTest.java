@@ -33,7 +33,7 @@ public class SearchParameterTest {
 	}
 
 	@Test
-	public void searchThis() {
+	public void SearchParameterTest_searchThis() {
 		homeStep.openFirstPage();
 		homeStep.typeSearch(search);
 

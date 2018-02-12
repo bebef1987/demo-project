@@ -25,7 +25,7 @@ public class SearchTest {
 	public SearchResultsSteps searchResultsSteps;
 
 	@Test
-	public void searchThis() {
+	public void SearchTest_searchThis() {
 		homeStep.openFirstPage();
 		homeStep.typeSearch("GPS");
 
@@ -33,56 +33,56 @@ public class SearchTest {
 	}
 
 	@Test
-	public void searchThis1() {
+	public void SearchTest_searchThis1() {
 		homeStep.openFirstPage();
 		homeStep.typeSearch("GPS");
 
 		searchResultsSteps.checkSearchResults();
 	}
 	@Test
-	public void searchThis2() {
+	public void SearchTest_searchThis2() {
 		homeStep.openFirstPage();
 		homeStep.typeSearch("GPS");
 
 		searchResultsSteps.checkSearchResults();
 	}
 	@Test
-	public void searchThis3() {
+	public void SearchTest_searchThis3() {
 		homeStep.openFirstPage();
 		homeStep.typeSearch("GPS");
 
 		searchResultsSteps.checkSearchResults();
 	}
 	@Test
-	public void searchThis4() {
+	public void SearchTest_searchThis4() {
 		homeStep.openFirstPage();
 		homeStep.typeSearch("GPS");
 
 		searchResultsSteps.checkSearchResults();
 	}
 	@Test
-	public void searchThis5() {
+	public void SearchTest_searchThis5() {
 		homeStep.openFirstPage();
 		homeStep.typeSearch("GPS");
 
 		searchResultsSteps.checkSearchResults();
 	}
 	@Test
-	public void searchThis6() {
+	public void SearchTest_searchThis6() {
 		homeStep.openFirstPage();
 		homeStep.typeSearch("GPS");
 
 		searchResultsSteps.checkSearchResults();
 	}
 	@Test
-	public void searchThis7() {
+	public void SearchTest_searchThis7() {
 		homeStep.openFirstPage();
 		homeStep.typeSearch("GPS");
 
 		searchResultsSteps.checkSearchResults();
 	}
 	@Test
-	public void searchThis8() {
+	public void SearchTest_searchThis8() {
 		homeStep.openFirstPage();
 		homeStep.typeSearch("GPS");
 

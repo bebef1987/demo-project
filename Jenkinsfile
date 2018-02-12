@@ -180,9 +180,9 @@ def runTests(browser, batchSize) {
                                                 " -DtestThreadCount=10  " +
 
                                                 // Retry settings
-                                                " -Dtest.retry.count=2 " +
+                                                " -Dtest.retry.count=2 " 
 
-                                                " -Dserenity.dry.run=true "
+//                                                " -Dserenity.dry.run=true "
                                     }
                                 }
                             }
