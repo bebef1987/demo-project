@@ -1,4 +1,4 @@
-package com.test.demoProject.tests;
+package com.test.demoProject.tests.test2;
 
 import com.test.demoProject.steps.HomeStep;
 import com.test.demoProject.steps.SearchResultsSteps;

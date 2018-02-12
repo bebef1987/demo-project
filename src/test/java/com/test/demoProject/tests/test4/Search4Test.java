@@ -1,4 +1,4 @@
-package com.test.demoProject.tests;
+package com.test.demoProject.tests.test4;
 
 import com.test.demoProject.steps.HomeStep;
 import com.test.demoProject.steps.SearchResultsSteps;
@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
 @RunWith(SerenityRunner.class)
-public class Search2Test {
+public class Search4Test {
 
 	@Managed()
 	public WebDriver webdriver;
@@ -22,7 +22,7 @@ public class Search2Test {
 	public SearchResultsSteps searchResultsSteps;
 
 	@Test
-	public void Search2Test_searchThis() {
+	public void Search4Test_searchThis() {
 		homeStep.openFirstPage();
 		homeStep.typeSearch("GPS");
 
@@ -30,56 +30,56 @@ public class Search2Test {
 	}
 
 	@Test
-	public void Search2Test_searchThis1() {
+	public void Search4Test_searchThis1() {
 		homeStep.openFirstPage();
 		homeStep.typeSearch("GPS");
 
 		searchResultsSteps.checkSearchResults();
 	}
 	@Test
-	public void Search2Test_searchThis2() {
+	public void Search4Test_searchThis2() {
 		homeStep.openFirstPage();
 		homeStep.typeSearch("GPS");
 
 		searchResultsSteps.checkSearchResults();
 	}
 	@Test
-	public void Search2Test_searchThis3() {
+	public void Search4Test_searchThis3() {
 		homeStep.openFirstPage();
 		homeStep.typeSearch("GPS");
 
 		searchResultsSteps.checkSearchResults();
 	}
 	@Test
-	public void Search2Test_searchThis4() {
+	public void Search4Test_searchThis4() {
 		homeStep.openFirstPage();
 		homeStep.typeSearch("GPS");
 
 		searchResultsSteps.checkSearchResults();
 	}
 	@Test
-	public void Search2Test_searchThis5() {
+	public void Search4Test_searchThis5() {
 		homeStep.openFirstPage();
 		homeStep.typeSearch("GPS");
 
 		searchResultsSteps.checkSearchResults();
 	}
 	@Test
-	public void Search2Test_searchThis6() {
+	public void Search4Test_searchThis6() {
 		homeStep.openFirstPage();
 		homeStep.typeSearch("GPS");
 
 		searchResultsSteps.checkSearchResults();
 	}
 	@Test
-	public void Search2Test_searchThis7() {
+	public void Search4Test_searchThis7() {
 		homeStep.openFirstPage();
 		homeStep.typeSearch("GPS");
 
 		searchResultsSteps.checkSearchResults();
 	}
 	@Test
-	public void Search2Test_searchThis8() {
+	public void Search4Test_searchThis8() {
 		homeStep.openFirstPage();
 		homeStep.typeSearch("GPS");
 
